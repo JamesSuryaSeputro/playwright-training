@@ -6,17 +6,17 @@ pipeline {
         }
 
     parameters {
-        choice{
+        choice(
             name: 'TEST_SUITE',
             choices: ['login', 'choose', 'checkout'],
             description: 'Select test suite'
-        }
+        )
 
-        booleanParam{
+        booleanParam(
             name: 'HEADLESS',
             defaultValue: true,
             description: 'Run in headless mode'
-        }
+        )
     }
 
     environment {

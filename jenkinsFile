@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    tools {
+        nodejs 'NodeJS'
+        }
+
+    environment {
+        HOME = "$env.WORKSPACE"
+    }
+
+    stages {
+        stage('Install dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+
+        stage('Install Browsers') {
+            steps {
+                sh 'npx playwright install --with-deps'
+            }
+        }
+        stage('Run Playwright Tests transaction') {
+            steps {
+                sh 'npx playwright test --grep transaction'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'playwright-report/**', caseSensitive: false, defualtExcludes: false, followSymlinks: false
+        }
+    }
+}

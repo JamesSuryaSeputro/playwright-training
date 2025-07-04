@@ -1,0 +1,1009 @@
+🔴 8 accessibility violations found:
+
+1. ❌ color-contrast - Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+   Help: Elements must meet minimum color contrast ratio thresholds
+   Impact: serious
+
+   [Node 1] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .text-wrap[data-v-0399615d=""] > .title[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element has insufficient color contrast of 2.63 (foreground color: #1db839, background color: #ffffff, font size: 21.3pt (28.4444px), font weight: bold). Expected contrast ratio of 3:1
+
+
+2. ❌ html-has-lang - Ensure every HTML document has a lang attribute
+   Help: <html> element must have a lang attribute
+   Impact: serious
+
+   [Node 1] Target: html
+   Failure Summary: Fix any of the following:
+  The <html> element does not have a lang attribute
+
+
+3. ❌ image-alt - Ensure <img> elements have alternative text or a role of none or presentation
+   Help: Images must have alternative text
+   Impact: critical
+
+   [Node 1] Target: .wrapper-banner > img
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 2] Target: .d-md-block.d-none[data-v-f9d7618c=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 3] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="4"] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[loading="lazy"][data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 4] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 5] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 6] Target: .swiper-slide[data-swiper-slide-index="2"][data-v-073c726e=""] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 7] Target: div[data-swiper-slide-index="3"] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[loading="lazy"][data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 8] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="4"] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[loading="lazy"][data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 9] Target: .content-icon-2
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 10] Target: .video-btn
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 11] Target: .app-store-button[data-v-bb40300c=""][data-v-073c726e=""]:nth-child(2) > .google-btn.channel-btn[data-v-bb40300c=""] > .channel[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 12] Target: .app-store-button[data-v-bb40300c=""][data-v-073c726e=""]:nth-child(3) > .apple-btn.channel-btn[data-v-bb40300c=""] > .channel[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 13] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-073c726e=""] > .slide[data-v-073c726e=""] > .banner-one-new[data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 14] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .six-th.d-md-block.d-none > .six-th-box.ec-container[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > picture[data-v-d21e1ac0=""] > .ph[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 15] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .six-th.d-md-block.d-none > .six-th-box.ec-container[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > .play[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 16] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .six-th.d-md-block.d-none > .six-th-box.ec-container[data-v-d21e1ac0=""] > .text-wrap[data-v-d21e1ac0=""] > .text-title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 17] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .text-title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 18] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > picture[data-v-d21e1ac0=""] > .ph[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 19] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > .play[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 20] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .text-wrap[data-v-0399615d=""] > picture > .text-title[data-v-0399615d=""][loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 21] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > picture > .ph[data-v-0399615d=""][loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 22] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > .play[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 23] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > picture > .text-title[data-v-0399615d=""][loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 24] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > picture > .ph[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 25] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > .play[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 26] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .six-th.d-md-block.d-none > .six-th-box.ec-container[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > picture[data-v-d21e1ac0=""] > .ph[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 27] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .six-th.d-md-block.d-none > .six-th-box.ec-container[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > .play[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 28] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .six-th.d-md-block.d-none > .six-th-box.ec-container[data-v-d21e1ac0=""] > .text-wrap[data-v-d21e1ac0=""] > .text-title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 29] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .text-title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 30] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > picture[data-v-d21e1ac0=""] > .ph[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 31] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > .play[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 32] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .text-wrap[data-v-0399615d=""] > picture > .text-title[data-v-0399615d=""][loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 33] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > picture > .ph[data-v-0399615d=""][loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 34] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams.d-md-block.d-none > .beware-of-scams-box.ec-container[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > .play[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 35] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > picture > .text-title[data-v-0399615d=""][loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 36] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > picture > .ph[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 37] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > .play[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 38] Target: .choose-item[data-v-7a8588fe=""]:nth-child(1) > .choose-icon[data-v-7a8588fe=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 39] Target: .choose-item[data-v-7a8588fe=""]:nth-child(2) > .choose-icon[data-v-7a8588fe=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 40] Target: .choose-item[data-v-7a8588fe=""]:nth-child(3) > .choose-icon[data-v-7a8588fe=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 41] Target: .choose-item[data-v-7a8588fe=""]:nth-child(4) > .choose-icon[data-v-7a8588fe=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 42] Target: .choose-item[data-v-7a8588fe=""]:nth-child(5) > .choose-icon[data-v-7a8588fe=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 43] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(1) > .yy[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 44] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(2) > .yy1[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 45] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(3) > .yy2[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 46] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(4) > .left-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 47] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(5) > .hart[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 48] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .right[data-v-765ec928=""] > .bottom-box[data-v-765ec928=""] > .bottom-title-box[data-v-765ec928=""] > picture > .bottom-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 49] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(1) > .yy[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 50] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(2) > .yy1[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 51] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(3) > .yy2[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 52] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(4) > .left-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 53] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(5) > .hart[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 54] Target: .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .right[data-v-765ec928=""] > .bottom-box[data-v-765ec928=""] > .bottom-title-box[data-v-765ec928=""] > picture > .bottom-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 55] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(1) > .yy[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 56] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(2) > .yy1[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 57] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(3) > .yy2[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 58] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(4) > .left-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 59] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(5) > .hart[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 60] Target: .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .right[data-v-765ec928=""] > .bottom-box[data-v-765ec928=""] > .bottom-title-box[data-v-765ec928=""] > picture > .bottom-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 61] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(1) > .yy[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 62] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(2) > .yy1[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 63] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(3) > .yy2[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 64] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(4) > .left-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 65] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(5) > .hart[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 66] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="2"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .right[data-v-765ec928=""] > .bottom-box[data-v-765ec928=""] > .bottom-title-box[data-v-765ec928=""] > picture > .bottom-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 67] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(1) > .yy[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 68] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(2) > .yy1[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 69] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(3) > .yy2[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 70] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(4) > .left-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 71] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .left[data-v-765ec928=""] > picture:nth-child(5) > .hart[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 72] Target: .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"] > .slide-box[data-v-765ec928=""] > .slide[data-v-765ec928=""] > .right[data-v-765ec928=""] > .bottom-box[data-v-765ec928=""] > .bottom-title-box[data-v-765ec928=""] > picture > .bottom-img[loading="lazy"]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 73] Target: .noScroll-item[data-v-53dc9a2e=""]:nth-child(1) > .no-scroll-img[loading="lazy"][data-v-53dc9a2e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 74] Target: .noScroll-item[data-v-53dc9a2e=""]:nth-child(2) > .no-scroll-img[loading="lazy"][data-v-53dc9a2e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 75] Target: .noScroll-item[data-v-53dc9a2e=""]:nth-child(3) > .no-scroll-img[loading="lazy"][data-v-53dc9a2e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 76] Target: .noScroll-item[data-v-53dc9a2e=""]:nth-child(4) > .no-scroll-img[loading="lazy"][data-v-53dc9a2e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 77] Target: .noScroll-item[data-v-53dc9a2e=""]:nth-child(5) > .no-scroll-img[loading="lazy"][data-v-53dc9a2e=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 78] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(2) > .customer-item-top[data-v-9ba4bce6=""] > .contact[data-v-9ba4bce6=""]:nth-child(2) > .contact-item[data-v-9ba4bce6=""]:nth-child(1) > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 79] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(2) > .customer-item-top[data-v-9ba4bce6=""] > .contact[data-v-9ba4bce6=""]:nth-child(2) > .contact-item[data-v-9ba4bce6=""]:nth-child(2) > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 80] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(2) > .customer-item-top[data-v-9ba4bce6=""] > .contact[data-v-9ba4bce6=""]:nth-child(2) > .contact-item[data-v-9ba4bce6=""]:nth-child(3) > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 81] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(2) > .customer-item-top[data-v-9ba4bce6=""] > .contact.whatsapp[data-v-9ba4bce6=""] > .contact-item[data-v-9ba4bce6=""] > .whatsapp[data-v-9ba4bce6=""] > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 82] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(3) > .customer-item-top[data-v-9ba4bce6=""] > .contact[data-v-9ba4bce6=""]:nth-child(2) > .contact-item[data-v-9ba4bce6=""]:nth-child(1) > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 83] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(3) > .customer-item-top[data-v-9ba4bce6=""] > .contact[data-v-9ba4bce6=""]:nth-child(2) > .contact-item[data-v-9ba4bce6=""]:nth-child(2) > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 84] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(3) > .customer-item-top[data-v-9ba4bce6=""] > .contact[data-v-9ba4bce6=""]:nth-child(2) > .contact-item[data-v-9ba4bce6=""]:nth-child(3) > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 85] Target: .customer-item-contact.customer-item[data-v-9ba4bce6=""]:nth-child(3) > .customer-item-top[data-v-9ba4bce6=""] > .contact.whatsapp[data-v-9ba4bce6=""] > .contact-item[data-v-9ba4bce6=""] > .whatsapp[data-v-9ba4bce6=""] > .customer-item-icon
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 86] Target: .btn.app-store-button[data-v-bb40300c=""]:nth-child(1) > .google-btn.channel-btn[data-v-bb40300c=""] > .channel[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 87] Target: .apple-w-btn > .channel[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+   [Node 88] Target: .pendant
+   Failure Summary: Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"
+
+
+4. ❌ landmark-one-main - Ensure the document has a main landmark
+   Help: Document should have one main landmark
+   Impact: moderate
+
+   [Node 1] Target: html
+   Failure Summary: Fix all of the following:
+  Document does not have a main landmark
+
+
+5. ❌ link-name - Ensure links have discernible text
+   Help: Links must have discernible text
+   Impact: serious
+
+   [Node 1] Target: .nav-header > .router-link-exact-active.router-link-active[href="/"]:nth-child(1)
+   Failure Summary: Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+
+   [Node 2] Target: .router-link-exact-active.router-link-active[href="/"]:nth-child(3)
+   Failure Summary: Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+
+
+6. ❌ meta-viewport - Ensure <meta name="viewport"> does not disable text scaling and zooming
+   Help: Zooming and scaling must not be disabled
+   Impact: critical
+
+   [Node 1] Target: meta[name="viewport"]
+   Failure Summary: Fix any of the following:
+  user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+7. ❌ page-has-heading-one - Ensure that the page, or at least one of its frames contains a level-one heading
+   Help: Page should contain a level-one heading
+   Impact: moderate
+
+   [Node 1] Target: html
+   Failure Summary: Fix all of the following:
+  Page must have a level-one heading
+
+
+8. ❌ region - Ensure all page content is contained by landmarks
+   Help: All page content should be contained by landmarks
+   Impact: moderate
+
+   [Node 1] Target: .index > div:nth-child(1)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 2] Target: .router-link-exact-active.router-link-active[href="/"]:nth-child(3)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 3] Target: .menu-list
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 4] Target: .swiper-slide-prev.swiper-slide-duplicate[data-swiper-slide-index="4"]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 5] Target: .swiper-container-fade > .swiper-wrapper > .swiper-slide-active.swiper-slide[data-swiper-slide-index="0"]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 6] Target: .swiper-container-fade > .swiper-wrapper > .swiper-slide-next.swiper-slide[data-swiper-slide-index="1"]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 7] Target: .swiper-slide[data-swiper-slide-index="2"][data-v-073c726e=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 8] Target: div[data-swiper-slide-index="3"]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 9] Target: .swiper-slide-duplicate-prev.swiper-slide[data-swiper-slide-index="4"]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 10] Target: .sub-poa
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 11] Target: .video-btn
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 12] Target: .app-store-button[data-v-bb40300c=""][data-v-073c726e=""]:nth-child(2) > .google-btn.channel-btn[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 13] Target: .app-store-button[data-v-bb40300c=""][data-v-073c726e=""]:nth-child(3) > .apple-btn.channel-btn[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 14] Target: .swiper-container-fade > .swiper-wrapper > .swiper-slide-duplicate-active.swiper-slide-duplicate[data-swiper-slide-index="0"]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 15] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .six-th.d-md-block.d-none
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 16] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .text-title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 17] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 18] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .text-th6[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 19] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .hastag[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 20] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > picture[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 21] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(2) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > .play[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 22] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams.d-md-block.d-none
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 23] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > picture
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 24] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .title[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 25] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .text-th6[data-v-0399615d=""]:nth-child(3)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 26] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .text-th6[data-v-0399615d=""]:nth-child(4)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 27] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > picture
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 28] Target: .d-md-block.d-none[data-v-6ca1dad3=""]:nth-child(3) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > .play[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 29] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .six-th.d-md-block.d-none
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 30] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .text-title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 31] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .title[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 32] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .text-th6[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 33] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .hastag[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 34] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > picture[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 35] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(1) > .th6[data-v-d21e1ac0=""] > .video-wrap[data-v-d21e1ac0=""] > .play[data-v-d21e1ac0=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 36] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams.d-md-block.d-none
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 37] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > picture
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 38] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .title[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 39] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .text-th6[data-v-0399615d=""]:nth-child(3)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 40] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .text-th6[data-v-0399615d=""]:nth-child(4)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 41] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > picture
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 42] Target: .mb-show[data-v-6ca1dad3=""][data-v-361f0537=""]:nth-child(2) > .beware-of-scams-mb[data-v-0399615d=""] > .video-wrap[data-v-0399615d=""] > .play[data-v-0399615d=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 43] Target: .who-left
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 44] Target: .who-right
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 45] Target: .why
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 46] Target: .home-user-pc > .swiper-container.swiper-container-initialized.swiper-container-horizontal > .swiper-wrapper
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 47] Target: .home-activity
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 48] Target: .partners-wrap
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 49] Target: .customer-left
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 50] Target: .map-wrapper > picture:nth-child(1)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 51] Target: .map-address
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 52] Target: .btn.app-store-button[data-v-bb40300c=""]:nth-child(1) > .google-btn.channel-btn[data-v-bb40300c=""]
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 53] Target: .apple-w-btn
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 54] Target: .contact-info[data-v-9ba4bce6=""]:nth-child(3)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 55] Target: .contact-info[data-v-9ba4bce6=""]:nth-child(5)
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+
+   [Node 56] Target: .pendant
+   Failure Summary: Fix any of the following:
+  Some page content is not contained by landmarks
+

@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Run Playwright Tests transaction') {
             steps {
-                sh 'npx playwright test transaction.spec'
+                sh 'npx playwright test test-examples-web/transaction'
             }
         }
     }

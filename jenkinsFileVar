@@ -1,0 +1,80 @@
+pipeline {
+    agent any
+
+    tools {
+        nodejs 'NodeJS'
+        }
+
+    parameters {
+        choice{
+            name: "TEST_SUITE",
+            choices: ['login', 'choose', 'checkout'],
+            description: 'Select test suite'
+        }
+
+        booleanParam{
+            name: 'HEADLESS',
+            defaultValue: true,
+            description: 'Run in headless mode'
+        }
+    }
+
+    environment {
+        HOME = "$env.WORKSPACE"
+    }
+
+    stages {
+        stage('Install dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+
+        stage('Install Browsers') {
+            steps {
+                sh 'npx playwright install --with-deps'
+            }
+        }
+        stage('Run Playwright Tests transaction') {
+            steps {
+                sh 'npx playwright test --grep transaction'
+            }
+        }
+
+        stage('Run Playwright Tests transaction') {
+            steps {
+                script {
+                    def command = "npx playwright test"
+
+                    // Suite
+                    switch (params.TEST_SUITE) {
+                        case 'login':
+                            command += ' --grep "@login"'
+                            break
+                        case 'choose':
+                            command += ' --grep "@choose"'
+                            break
+                        case 'checkout':
+                            command += ' --grep @checkout'
+                            break
+                        default:
+                            break
+                    }
+
+                    if (!params.HEADLESS) {
+                        command += " --headed"
+                    }
+
+                    echo "Running command: ${command}"
+                    sh command
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'playwright-report/**', caseSensitive: false, defaultExcludes: false, followSymlinks: false
+        }
+    }
+}

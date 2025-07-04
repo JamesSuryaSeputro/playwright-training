@@ -11,7 +11,7 @@ test.describe('Transaction', () => {
     await page.goto('https://www.saucedemo.com/');
   });
 
-  test('login success', async () => {
+  test('login success' , {tag: ['@login', '@choose', '@checkout']} , async () => {
     const username = page.locator('//*[@id="user-name"]');
     const password = page.locator('//*[@id="password"]');
     const loginButton = page.locator('//*[@id="login-button"]');
@@ -23,7 +23,7 @@ test.describe('Transaction', () => {
     await expect(page.locator('.app_logo')).toBeVisible();
   });
 
-  test('choose items', async () => {
+  test('choose items', {tag: ['@choose', '@checkout']} , async () => {
     const text = ['Backpack', 'Bike Light', 'Bolt T-Shirt']
     for (let i = 0; i < text.length; i++) {
       await page.locator(`//div[contains(text(),'${text[i]}')]/ancestor::div[1]/following-sibling::div/button`).click();
@@ -34,7 +34,7 @@ test.describe('Transaction', () => {
     }
   });
 
-  test('checkout', async () => {
+  test('checkout', {tag: '@checkout'} , async () => {
     await page.locator('[data-test="checkout"]').click();
     await page.locator('[data-test="firstName"]').fill('John');
     await page.locator('[data-test="lastName"]').fill('Doe');

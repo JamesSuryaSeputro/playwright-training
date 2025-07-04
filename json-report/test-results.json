@@ -92,12 +92,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 180,
+                      "duration": 177,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-04T10:30:49.792Z",
+                      "startTime": "2025-07-04T10:41:42.140Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -109,6 +109,79 @@
               "file": "tests-examples-web/transaction.spec.ts",
               "line": 14,
               "column": 7
+            },
+            {
+              "title": "choose items",
+              "ok": true,
+              "tags": [
+                "choose",
+                "checkout"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 151,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-04T10:41:43.145Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fbb67a1f8855e6089ff6-aae1ae69ba723d309d1f",
+              "file": "tests-examples-web/transaction.spec.ts",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "checkout",
+              "ok": true,
+              "tags": [
+                "checkout"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 124,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-04T10:41:43.300Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fbb67a1f8855e6089ff6-35555b6e4b5ae7804349",
+              "file": "tests-examples-web/transaction.spec.ts",
+              "line": 37,
+              "column": 7
             }
           ]
         }
@@ -117,9 +190,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-04T10:30:49.155Z",
-    "duration": 4203.436000000001,
-    "expected": 1,
+    "startTime": "2025-07-04T10:41:41.643Z",
+    "duration": 1814.5260000000003,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

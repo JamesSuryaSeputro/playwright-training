@@ -30,7 +30,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'playwright-report/**', caseSensitive: false, defualtExcludes: false, followSymlinks: false
+            archiveArtifacts artifacts: 'playwright-report/**', caseSensitive: false, defaultExcludes: false, followSymlinks: false
         }
     }
 }

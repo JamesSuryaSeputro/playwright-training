@@ -35,11 +35,6 @@ pipeline {
                 sh 'npx playwright install --with-deps'
             }
         }
-        stage('Run Playwright Tests transaction') {
-            steps {
-                sh 'npx playwright test --grep transaction'
-            }
-        }
 
         stage('Run Playwright Tests transaction') {
             steps {

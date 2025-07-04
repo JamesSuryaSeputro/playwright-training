@@ -36,6 +36,12 @@ pipeline {
             }
         }
 
+        stage('check folder') {
+            steps {
+                sh 'ls -al'
+            }
+        }
+
         stage('Run Playwright Tests transaction') {
             steps {
                 script {
